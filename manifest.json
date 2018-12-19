@@ -1,0 +1,12 @@
+{
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "description": "Query to the Global Name Service.",
+  "name": "Global Name Service",
+  "omnibox": { "keyword" : "gns" },
+  "permissions": [ "http://www.google.com/", "*://localhost:*/*" ],
+  "version": "0.0.1",
+  "minimum_chrome_version": "9",
+  "manifest_version": 2
+}
